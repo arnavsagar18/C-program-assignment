@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    double no1, no2;
+    printf("Enter the first number: ");
+    scanf("%lf", &no1);
+    printf("Enter the second number: ");
+    scanf("%lf", &no2);
+    if (no1 > no2) {
+        printf("%.2lf is greater.\n", no1);
+    } else if (no2 > no1) {
+        printf("%.2lf is greater.\n", no2);
+    } else {
+        printf("Both numbers are equal.\n");
+    }
+    return 0;
+}
