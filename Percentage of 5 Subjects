@@ -1,0 +1,19 @@
+#include <stdio.h>
+void main() {
+    double sub1, sub2, sub3, sub4, sub5;
+    double totalMarks, percentage;
+    printf("Enter marks for subject 1: ");
+    scanf("%lf", &sub1);
+    printf("Enter marks for subject 2: ");
+    scanf("%lf", &sub2);
+    printf("Enter marks for subject 3: ");
+    scanf("%lf", &sub3);
+    printf("Enter marks for subject 4: ");
+    scanf("%lf", &sub4);
+    printf("Enter marks for subject 5: ");
+    scanf("%lf", &sub5);
+    totalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
+    percentage = (totalMarks / 500) * 100;
+    printf("Total marks: %.2lf\n", totalMarks);
+    printf("Percentage: %.2lf%%\n", percentage);
+}
